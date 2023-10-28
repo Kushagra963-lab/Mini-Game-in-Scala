@@ -23,3 +23,33 @@ This is a Scala program that generates a list of prime numbers within a specifie
 
    ```shell
    scalac PrimeTimeApp.scala
+Run the program:
+
+shell
+Copy code
+scala PrimeTimeApp
+Follow the on-screen instructions to play the game.
+
+Gameplay
+The program generates a list of prime numbers between 201 and 499.
+It will repeatedly generate random numbers within this range and ask the user if the number is prime.
+The user can respond with "Y" for yes (if they believe it's prime), "N" for no (if they believe it's not prime), or "X" to exit the game.
+After each guess, the program will reveal whether the user's answer was correct and display if the number is indeed prime or not.
+Rules
+The program avoids generating even or multiples of 5 as the target numbers to ensure a fair game.
+The game continues until the user chooses to exit by typing "X."
+Files
+PrimeTimeApp.scala: The main Scala script for the game.
+No additional files are required to run the program.
+
+
+Acknowledgments
+Developed by [Kushagra Singh Gaur]
+Special thanks to the Scala and programming community for their support and inspiration.
+Contact
+For questions or issues, please contact [kushagrasingh.gaur2022@vitstudent.ac.in].
+
+css
+Copy code
+
+Copy the content and save it to a file with the `.md` extension to create your Mark
